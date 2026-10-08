@@ -104,37 +104,27 @@ In the reported experiments, **GLM-5.1** achieved the highest overall quality sc
 
 No open-source license has been assigned to this repository. Please contact the project authors before redistributing or reusing the code or materials.
 
+## Application Screenshots
+
+### 1. Overview Dashboard
+
+![Overview Dashboard](screenshots/overview.png)
+
+### 2. 360-Degree Evaluation
+
+![360-Degree Evaluation](screenshots/evaluation.png)
+
+### 3. AI Mentor
+
+![AI Mentor](screenshots/ai-mentor.png)
+
+### 4. Personal Development Journey
+
+![Development Journey](screenshots/development-journey.png)
+
+### 5. HR Performance Analytics
+
+![HR Dashboard](screenshots/hr-dashboard.png)
 
 
-\## Application Screenshots
-
-
-
-\### 1. Overview Dashboard
-
-!\[Overview Dashboard](screenshots/overview.png)
-
-
-
-\### 2. 360-Degree Evaluation
-
-!\[360-Degree Evaluation](screenshots/evaluation.png)
-
-
-
-\### 3. AI Mentor
-
-!\[AI Mentor](screenshots/ai-mentor.png)
-
-
-
-\### 4. Personal Development Journey
-
-!\[Development Journey](screenshots/development-journey.png)
-
-
-
-\### 5. HR Performance Analytics
-
-!\[HR Dashboard](screenshots/hr-dashboard.png)
 
