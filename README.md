@@ -4,7 +4,7 @@
 
 An industry-oriented undergraduate graduation project (2026) developed by **Yağmur Ateş** and **Şevval Gül**, Department of Industrial Engineering, Bursa Technical University, within the **TUSAŞ LIFT UP** program.
 
-> **Project status:** Academic research prototype, evaluated with synthetic data. This repository is not a production-ready HR system or an official TUSAŞ product.
+> \*\*Project status:\*\* Academic research prototype, evaluated with synthetic data. This repository is not a production-ready HR system or an official TUSAŞ product.
 
 ## Overview
 
@@ -14,23 +14,23 @@ The project investigates how to make performance feedback more actionable while 
 
 ## Key Features
 
-- **360-degree evaluation:** A competency framework of **7 competencies × 3 behavioral indicators (21 items)**, with multi-source weighted scoring and development-level mapping.
-- **Role-based interfaces:** Employee, manager, and HR views, including evaluation tasks, personal reports, team reports, and an HR analytics dashboard.
-- **Personalized development reports:** LLM-supported analysis of strengths and improvement areas, with actionable development suggestions.
-- **AI Mentor:** Interactive, context-aware guidance for employees working on their development plans.
-- **Development journey:** Training/action cards, completion tracking, employee reflections, and comparison-oriented reporting across evaluation periods.
-- **Automated reminders:** Email reminder functionality for inactive development steps.
-- **AI usage observability:** Provider/model selection, latency and token tracking, estimated cost calculation, and usage logging.
+* **360-degree evaluation:** A competency framework of **7 competencies × 3 behavioral indicators (21 items)**, with multi-source weighted scoring and development-level mapping.
+* **Role-based interfaces:** Employee, manager, and HR views, including evaluation tasks, personal reports, team reports, and an HR analytics dashboard.
+* **Personalized development reports:** LLM-supported analysis of strengths and improvement areas, with actionable development suggestions.
+* **AI Mentor:** Interactive, context-aware guidance for employees working on their development plans.
+* **Development journey:** Training/action cards, completion tracking, employee reflections, and comparison-oriented reporting across evaluation periods.
+* **Automated reminders:** Email reminder functionality for inactive development steps.
+* **AI usage observability:** Provider/model selection, latency and token tracking, estimated cost calculation, and usage logging.
 
 ## Technology Stack
 
-| Layer | Technologies |
-| --- | --- |
-| Desktop application | C#, Windows Forms, .NET Framework 4.7.2 |
-| Data storage | Microsoft SQL Server |
-| AI integration | OpenRouter and Ollama integration |
-| LLM evaluation | Qwen2.5, Gemma 4 E2B, gpt-oss-120b, GLM-5.1 |
-| Development environment | Visual Studio, NuGet |
+|Layer|Technologies|
+|-|-|
+|Desktop application|C#, Windows Forms, .NET Framework 4.7.2|
+|Data storage|Microsoft SQL Server|
+|AI integration|OpenRouter and Ollama integration|
+|LLM evaluation|Qwen2.5, Gemma 4 E2B, gpt-oss-120b, GLM-5.1|
+|Development environment|Visual Studio, NuGet|
 
 ## Architecture
 
@@ -47,25 +47,25 @@ All end-to-end prototype tests described in the graduation study used a **synthe
 
 Four models were compared for report generation and AI Mentor interactions:
 
-| Evaluation component | Study design |
-| --- | --- |
-| Development report generation | **180 reports**: 4 models × 15 employees × 3 runs |
-| AI Mentor | **36 conversation outputs**: 3 employees × 4 models × 3 turns |
-| Dimensions | Output quality, response time, and data-security considerations |
-| Assessment | Six-dimension LLM-based rubric, with a subset compared against human ratings |
+|Evaluation component|Study design|
+|-|-|
+|Development report generation|**180 reports**: 4 models × 15 employees × 3 runs|
+|AI Mentor|**36 conversation outputs**: 3 employees × 4 models × 3 turns|
+|Dimensions|Output quality, response time, and data-security considerations|
+|Assessment|Six-dimension LLM-based rubric, with a subset compared against human ratings|
 
 In the reported experiments, **GLM-5.1** achieved the highest overall quality scores for report generation and mentor dialogue, while **gpt-oss-120b** provided faster responses. These findings are specific to the study's tasks, evaluation setup, and tested models; they are not a general model ranking.
 
-![Model response-time comparison](Grafikler/01_ortalama_toplam_yanit_suresi.png)
+!\[Model response-time comparison](Grafikler/01\_ortalama\_toplam\_yanit\_suresi.png)
 
 ## Repository Structure
 
-- `AI/` — AI gateway, provider integrations, scoring and development-support services.
-- `*.cs`, `*.Designer.cs`, `*.resx` — Windows Forms application code and UI resources.
-- `Grafikler/` — Selected research visualizations.
-- `Properties/` and `Resources/` — Project settings and application resources.
-- `WindowsFormsApp1.sln`, `WindowsFormsApp1.csproj` — Visual Studio solution and project files.
-- `App.config` — Example local SQL Server connection settings (no passwords should be committed).
+* `AI/` — AI gateway, provider integrations, scoring and development-support services.
+* `\*.cs`, `\*.Designer.cs`, `\*.resx` — Windows Forms application code and UI resources.
+* `Grafikler/` — Selected research visualizations.
+* `Properties/` and `Resources/` — Project settings and application resources.
+* `WindowsFormsApp1.sln`, `WindowsFormsApp1.csproj` — Visual Studio solution and project files.
+* `App.config` — Example local SQL Server connection settings (no passwords should be committed).
 
 ## Running the Prototype
 
@@ -80,15 +80,15 @@ In the reported experiments, **GLM-5.1** achieved the highest overall quality sc
 
 ## Limitations and Responsible Use
 
-- This is a research prototype, **not** a validated production HR decision-making tool.
-- Cross-period development tracking is implemented as a design/prototype feature; its effectiveness with real longitudinal organizational data has not been experimentally established.
-- Any use involving actual employee data requires appropriate privacy, information-security, and organizational approvals.
-- The LIFT UP project context does not imply official endorsement or production deployment by TUSAŞ.
+* This is a research prototype, **not** a validated production HR decision-making tool.
+* Cross-period development tracking is implemented as a design/prototype feature; its effectiveness with real longitudinal organizational data has not been experimentally established.
+* Any use involving actual employee data requires appropriate privacy, information-security, and organizational approvals.
+* The LIFT UP project context does not imply official endorsement or production deployment by TUSAŞ.
 
 ## Authors
 
-- **Yağmur Ateş** — Co-developer and undergraduate researcher
-- **Şevval Gül** — Co-developer and undergraduate researcher
+* **Yağmur Ateş** — Co-developer and undergraduate researcher
+* **Şevval Gül** — Co-developer and undergraduate researcher
 
 **Academic affiliation:** Bursa Technical University, Department of Industrial Engineering.
 
@@ -103,3 +103,38 @@ In the reported experiments, **GLM-5.1** achieved the highest overall quality sc
 ## License and Usage
 
 No open-source license has been assigned to this repository. Please contact the project authors before redistributing or reusing the code or materials.
+
+
+
+\## Application Screenshots
+
+
+
+\### 1. Overview Dashboard
+
+!\[Overview Dashboard](screenshots/overview.png)
+
+
+
+\### 2. 360-Degree Evaluation
+
+!\[360-Degree Evaluation](screenshots/evaluation.png)
+
+
+
+\### 3. AI Mentor
+
+!\[AI Mentor](screenshots/ai-mentor.png)
+
+
+
+\### 4. Personal Development Journey
+
+!\[Development Journey](screenshots/development-journey.png)
+
+
+
+\### 5. HR Performance Analytics
+
+!\[HR Dashboard](screenshots/hr-dashboard.png)
+
