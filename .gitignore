@@ -1,0 +1,44 @@
+# Build çıktıları
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+packages/
+*.nupkg
+
+# Log & temp
+*.log
+*.tmp
+*.cache
+
+# Yayın klasörleri
+[Pp]ublish/
+[Rr]elease/
+
+# AI gizli yapılandırması (API anahtarı içerir) — ai.env.example commit'lenir
+ai.env
+
+# Diğer ortam ve gizli yapılandırma dosyaları
+.env
+.env.*
+!.env.example
+
+# Özel anahtar ve sertifikalar
+*.pfx
+*.key
+
+# SQL Server yedekleri ve yerel veritabanları
+*.bak
+*.mdf
+*.ldf
+
+# Projeye özel derlenmiş yardımcı uygulamalar
+FixData.exe
+UpdateSql.exe

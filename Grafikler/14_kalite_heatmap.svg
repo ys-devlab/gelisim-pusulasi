@@ -1,0 +1,108 @@
+<svg viewBox="0 0 505 208" xmlns="http://www.w3.org/2000/svg" font-family="Arial,sans-serif">
+<rect width="505" height="208" fill="white"/>
+
+<!-- Header bg -->
+<rect x="0" y="8" width="505" height="36" fill="#f0f0f0"/>
+
+<!-- Header labels -->
+<text x="52" y="30" text-anchor="middle" font-size="9" fill="#666">Model</text>
+<text x="132" y="28" text-anchor="middle" font-size="8.5" fill="#555">Veri sad.</text>
+<text x="188" y="28" text-anchor="middle" font-size="8.5" fill="#555">Kişiselleşt.</text>
+<text x="244" y="28" text-anchor="middle" font-size="8.5" fill="#555">Uygulnblr.</text>
+<text x="300" y="28" text-anchor="middle" font-size="8.5" fill="#555">Türkçe dil</text>
+<text x="356" y="28" text-anchor="middle" font-size="8.5" fill="#555">Format uyum</text>
+<text x="412" y="28" text-anchor="middle" font-size="8.5" fill="#555">Ton</text>
+<text x="471" y="30" text-anchor="middle" font-size="9" font-weight="bold" fill="#333">Genel</text>
+
+<!-- GLM row -->
+<rect x="0"   y="44" width="104" height="38" fill="#f0f4f9"/>
+<text x="8"   y="68" font-size="10" font-weight="bold" fill="#185FA5">GLM-5.1</text>
+<rect x="104" y="44" width="56" height="38" fill="rgb(147,155,42)"/>
+<text x="132" y="68" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">4.31</text>
+<rect x="160" y="44" width="56" height="38" fill="rgb(189,157,41)"/>
+<text x="188" y="68" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">3.71</text>
+<rect x="216" y="44" width="56" height="38" fill="rgb(126,154,43)"/>
+<text x="244" y="68" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">4.62</text>
+<rect x="272" y="44" width="56" height="38" fill="rgb(164,156,42)"/>
+<text x="300" y="68" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">4.07</text>
+<rect x="328" y="44" width="56" height="38" fill="rgb(169,156,42)"/>
+<text x="356" y="68" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">4.00</text>
+<rect x="384" y="44" width="56" height="38" fill="rgb(144,155,42)"/>
+<text x="412" y="68" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">4.36</text>
+<rect x="443" y="44" width="56" height="38" fill="rgb(156,156,42)"/>
+<text x="471" y="68" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">4.18</text>
+
+<!-- gpt-oss row -->
+<rect x="0"   y="82" width="104" height="38" fill="#f0f4f0"/>
+<text x="8"   y="106" font-size="10" font-weight="bold" fill="#3B6D11">gpt-oss-120b</text>
+<rect x="104" y="82" width="56" height="38" fill="rgb(160,156,42)"/>
+<text x="132" y="106" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">4.13</text>
+<rect x="160" y="82" width="56" height="38" fill="rgb(239,159,39)"/>
+<text x="188" y="106" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">3.00</text>
+<rect x="216" y="82" width="56" height="38" fill="rgb(164,156,42)"/>
+<text x="244" y="106" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">4.07</text>
+<rect x="272" y="82" width="56" height="38" fill="rgb(198,157,41)"/>
+<text x="300" y="106" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">3.58</text>
+<rect x="328" y="82" width="56" height="38" fill="rgb(211,158,40)"/>
+<text x="356" y="106" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">3.40</text>
+<rect x="384" y="82" width="56" height="38" fill="rgb(164,156,42)"/>
+<text x="412" y="106" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">4.07</text>
+<rect x="443" y="82" width="56" height="38" fill="rgb(189,157,41)"/>
+<text x="471" y="106" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">3.71</text>
+
+<!-- Gemma row -->
+<rect x="0"   y="120" width="104" height="38" fill="#f9f5f0"/>
+<text x="8"   y="144" font-size="10" font-weight="bold" fill="#854F0B">Gemma4</text>
+<rect x="104" y="120" width="56" height="38" fill="rgb(178,156,41)"/>
+<text x="132" y="144" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">3.87</text>
+<rect x="160" y="120" width="56" height="38" fill="rgb(237,146,44)"/>
+<text x="188" y="144" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">2.69</text>
+<rect x="216" y="120" width="56" height="38" fill="rgb(194,157,41)"/>
+<text x="244" y="144" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">3.64</text>
+<rect x="272" y="120" width="56" height="38" fill="rgb(233,159,39)"/>
+<text x="300" y="144" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">3.09</text>
+<rect x="328" y="120" width="56" height="38" fill="rgb(238,154,41)"/>
+<text x="356" y="144" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">2.89</text>
+<rect x="384" y="120" width="56" height="38" fill="rgb(189,157,41)"/>
+<text x="412" y="144" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">3.71</text>
+<rect x="443" y="120" width="56" height="38" fill="rgb(217,158,40)"/>
+<text x="471" y="144" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">3.31</text>
+
+<!-- Qwen row -->
+<rect x="0"   y="158" width="104" height="38" fill="#faf0f0"/>
+<text x="8"   y="182" font-size="10" font-weight="bold" fill="#A32D2D">Qwen2.5</text>
+<rect x="104" y="158" width="56" height="38" fill="rgb(237,143,46)"/>
+<text x="132" y="182" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">2.62</text>
+<rect x="160" y="158" width="56" height="38" fill="rgb(233,117,57)"/>
+<text x="188" y="182" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">2.00</text>
+<rect x="216" y="158" width="56" height="38" fill="rgb(231,109,60)"/>
+<text x="244" y="182" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">1.82</text>
+<rect x="272" y="158" width="56" height="38" fill="rgb(234,127,52)"/>
+<text x="300" y="182" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">2.24</text>
+<rect x="328" y="158" width="56" height="38" fill="rgb(227,82,71)"/>
+<text x="356" y="182" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">1.16</text>
+<rect x="384" y="158" width="56" height="38" fill="rgb(234,126,53)"/>
+<text x="412" y="182" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">2.22</text>
+<rect x="443" y="158" width="56" height="38" fill="rgb(233,117,56)"/>
+<text x="471" y="182" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">2.01</text>
+
+<!-- Grid lines -->
+<line x1="0" y1="44" x2="505" y2="44" stroke="#ccc" stroke-width="1"/>
+<line x1="0" y1="82" x2="505" y2="82" stroke="#ddd" stroke-width="0.5"/>
+<line x1="0" y1="120" x2="505" y2="120" stroke="#ddd" stroke-width="0.5"/>
+<line x1="0" y1="158" x2="505" y2="158" stroke="#ddd" stroke-width="0.5"/>
+<line x1="0" y1="196" x2="505" y2="196" stroke="#ccc" stroke-width="1"/>
+<line x1="104" y1="8" x2="104" y2="196" stroke="#ccc" stroke-width="0.7"/>
+<line x1="440" y1="8" x2="440" y2="196" stroke="#888" stroke-width="1.5"/>
+<!-- Outer border -->
+<rect x="0" y="8" width="499" height="188" fill="none" stroke="#bbb" stroke-width="1"/>
+
+<!-- Color scale legend -->
+<text x="8" y="204" font-size="8" fill="#888">Renk ölçeği:</text>
+<rect x="70" y="197" width="30" height="8" fill="rgb(227,82,71)"/>
+<text x="102" y="204" font-size="8" fill="#888">1 (düşük)</text>
+<rect x="155" y="197" width="30" height="8" fill="rgb(239,159,39)"/>
+<text x="187" y="204" font-size="8" fill="#888">3 (orta)</text>
+<rect x="230" y="197" width="30" height="8" fill="rgb(99,153,44)"/>
+<text x="262" y="204" font-size="8" fill="#888">5 (yüksek)</text>
+</svg>

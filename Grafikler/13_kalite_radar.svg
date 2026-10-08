@@ -1,0 +1,53 @@
+<svg viewBox="0 0 490 395" xmlns="http://www.w3.org/2000/svg" font-family="Arial,sans-serif">
+<rect width="490" height="395" fill="white"/>
+<text x="245" y="16" text-anchor="middle" font-size="11" font-weight="bold" fill="#222">Şekil 13. Çıktı Kalitesi — 6 Boyut Radar (LLM-Jüri, n=45/model)</text>
+
+<!-- Grid rings -->
+<polygon points="250,152.5 278.1,168.75 278.1,201.25 250,217.5 221.9,201.25 221.9,168.75" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+<polygon points="250,120 306.3,152.5 306.3,217.5 250,250 193.7,217.5 193.7,152.5" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+<polygon points="250,87.5 334.4,136.25 334.4,233.75 250,282.5 165.6,233.75 165.6,136.25" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+<polygon points="250,55 362.6,120 362.6,250 250,315 137.4,250 137.4,120" fill="none" stroke="#aaa" stroke-width="1"/>
+
+<!-- Grid value labels -->
+<text x="254" y="154" font-size="8" fill="#bbb">2</text>
+<text x="254" y="121" font-size="8" fill="#bbb">3</text>
+<text x="254" y="89" font-size="8" fill="#bbb">4</text>
+<text x="254" y="57" font-size="8" fill="#bbb">5</text>
+
+<!-- Axis lines -->
+<line x1="250" y1="185" x2="250" y2="55" stroke="#ddd" stroke-width="0.7"/>
+<line x1="250" y1="185" x2="362.6" y2="120" stroke="#ddd" stroke-width="0.7"/>
+<line x1="250" y1="185" x2="362.6" y2="250" stroke="#ddd" stroke-width="0.7"/>
+<line x1="250" y1="185" x2="250" y2="315" stroke="#ddd" stroke-width="0.7"/>
+<line x1="250" y1="185" x2="137.4" y2="250" stroke="#ddd" stroke-width="0.7"/>
+<line x1="250" y1="185" x2="137.4" y2="120" stroke="#ddd" stroke-width="0.7"/>
+
+<!-- Data polygons (Qwen first = bottom layer) -->
+<polygon points="250,132.3 278.1,168.75 273.1,198.35 250,225.3 245.5,187.6 215.6,165.15"
+  fill="#E24B4A" fill-opacity="0.12" stroke="#E24B4A" stroke-width="1.5"/>
+<polygon points="250,91.7 297.5,157.5 324.3,227.9 250,252.9 196.8,215.7 173.7,140.9"
+  fill="#EF9F27" fill-opacity="0.12" stroke="#EF9F27" stroke-width="1.5"/>
+<polygon points="250,83.3 306.3,152.5 336.5,234.9 250,268.9 182.5,224 163.5,135.1"
+  fill="#639922" fill-opacity="0.12" stroke="#639922" stroke-width="1.5"/>
+<polygon points="250,77.2 326.3,140.9 352.3,244.1 250,284.3 165.6,233.75 155.4,130.4"
+  fill="#378ADD" fill-opacity="0.15" stroke="#378ADD" stroke-width="2"/>
+
+<!-- Axis labels -->
+<text x="250" y="32" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">Veri sadakati</text>
+<text x="374" y="108" text-anchor="start" font-size="10" font-weight="bold" fill="#333">Kişiselleştirme</text>
+<text x="374" y="263" text-anchor="start" font-size="10" font-weight="bold" fill="#333">Uygulanabilirlik</text>
+<text x="250" y="333" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">Türkçe dil</text>
+<text x="126" y="263" text-anchor="end" font-size="10" font-weight="bold" fill="#333">Format uyum</text>
+<text x="126" y="108" text-anchor="end" font-size="10" font-weight="bold" fill="#333">Ton</text>
+
+<!-- Legend -->
+<rect x="30" y="350" width="10" height="10" fill="#378ADD" rx="2"/>
+<text x="44" y="359" font-size="10" fill="#333">GLM-5.1 (4.18)</text>
+<rect x="175" y="350" width="10" height="10" fill="#639922" rx="2"/>
+<text x="189" y="359" font-size="10" fill="#333">gpt-oss-120b (3.71)</text>
+<rect x="330" y="350" width="10" height="10" fill="#EF9F27" rx="2"/>
+<text x="344" y="359" font-size="10" fill="#333">Gemma4 (3.31)</text>
+<rect x="30" y="367" width="10" height="10" fill="#E24B4A" rx="2"/>
+<text x="44" y="376" font-size="10" fill="#333">Qwen2.5 (2.01)</text>
+<text x="245" y="393" text-anchor="middle" font-size="8" fill="#999">Jüri: Claude Sonnet 4.6 | temp=0 seed=42 | kör değerlendirme (model adı gizli)</text>
+</svg>

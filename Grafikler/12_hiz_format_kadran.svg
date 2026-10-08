@@ -1,0 +1,60 @@
+<svg viewBox="0 0 1000 620" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="1000" height="620" fill="#ffffff"/>
+  <text x="500" y="38" text-anchor="middle" font-size="25" font-weight="600" fill="#1a1a1a">Hız – Format Uyumu Ödünleşim Haritası</text>
+  <text x="500" y="64" text-anchor="middle" font-size="14" fill="#666">İdeal model: hızlı (solda) + format kurallarına uyumlu (yukarıda)</text>
+
+  <!-- plot box: x 120..950 (time 0..100s), y 110..500 (compliance 0.70..0.92) -->
+  <rect x="120" y="110" width="830" height="390" fill="#fafafa" stroke="#333" stroke-width="1.5"/>
+
+  <!-- quadrant dividers: x at median time ~38.7s -> px=120+38.7/100*830=441 ; y at compliance 0.83 -> py=500-(0.83-0.70)/0.22*390=500-230=270 -->
+  <line x1="441" y1="110" x2="441" y2="500" stroke="#ccc" stroke-dasharray="6 5"/>
+  <line x1="120" y1="270" x2="950" y2="270" stroke="#ccc" stroke-dasharray="6 5"/>
+
+  <!-- ideal zone tint top-left -->
+  <rect x="120" y="110" width="321" height="160" fill="#2ca02c" opacity="0.07"/>
+  <text x="135" y="132" font-size="14" font-weight="600" fill="#2ca02c">İDEAL BÖLGE (hızlı + uyumlu)</text>
+
+  <!-- X axis ticks: 0,20,40,60,80,100 -->
+  <g font-size="13" fill="#666">
+    <text x="120" y="522" text-anchor="middle">0</text>
+    <text x="286" y="522" text-anchor="middle">20</text>
+    <text x="452" y="522" text-anchor="middle">40</text>
+    <text x="618" y="522" text-anchor="middle">60</text>
+    <text x="784" y="522" text-anchor="middle">80</text>
+    <text x="950" y="522" text-anchor="middle">100</text>
+  </g>
+  <text x="535" y="555" text-anchor="middle" font-size="15" fill="#444">Ortalama Toplam Yanıt Süresi (saniye)  →  yavaşlar</text>
+
+  <!-- Y axis ticks: 0.70,0.75,0.80,0.85,0.90 -> py=500-(v-0.70)/0.22*390 -->
+  <g font-size="13" fill="#666">
+    <text x="110" y="505" text-anchor="end">0,70</text>
+    <text x="110" y="416" text-anchor="end">0,75</text>
+    <text x="110" y="328" text-anchor="end">0,80</text>
+    <text x="110" y="239" text-anchor="end">0,85</text>
+    <text x="110" y="150" text-anchor="end">0,90</text>
+  </g>
+  <text x="42" y="305" text-anchor="middle" font-size="15" fill="#444" transform="rotate(-90 42 305)">Format Uyum Skoru (0–1)  ↑ daha uyumlu</text>
+
+  <!-- points -->
+  <!-- gpt-oss (6.1, 0.889): px=120+6.1/100*830=171, py=500-(0.889-0.70)/0.22*390=500-335=165 -->
+  <circle cx="171" cy="165" r="12" fill="#2ca02c"/>
+  <text x="188" y="160" font-size="15" font-weight="700" fill="#1a1a1a">gpt-oss-120b</text>
+  <text x="188" y="179" font-size="12" fill="#666">6,1 sn · 0,89</text>
+
+  <!-- GLM (93.9, 0.90): px=120+93.9/100*830=899, py=500-(0.90-0.70)/0.22*390=500-355=145 -->
+  <circle cx="899" cy="145" r="12" fill="#ff7f0e"/>
+  <text x="882" y="125" text-anchor="end" font-size="15" font-weight="700" fill="#1a1a1a">GLM-5.1</text>
+  <text x="882" y="144" text-anchor="end" font-size="12" fill="#666">93,9 sn · 0,90</text>
+
+  <!-- Gemma (28.5, 0.75): px=120+28.5/100*830=357, py=500-(0.75-0.70)/0.22*390=500-89=411 -->
+  <circle cx="357" cy="411" r="12" fill="#9467bd"/>
+  <text x="374" y="406" font-size="15" font-weight="700" fill="#1a1a1a">Gemma4:e2b</text>
+  <text x="374" y="425" font-size="12" fill="#666">28,5 sn · 0,75</text>
+
+  <!-- Qwen (49.0, 0.756): px=120+49/100*830=527, py=500-(0.756-0.70)/0.22*390=500-99=401 -->
+  <circle cx="527" cy="401" r="12" fill="#d62728"/>
+  <text x="544" y="396" font-size="15" font-weight="700" fill="#1a1a1a">Qwen 2.5 7B</text>
+  <text x="544" y="415" font-size="12" fill="#666">49,0 sn · 0,76</text>
+
+  <text x="500" y="595" text-anchor="middle" font-size="13" fill="#888">Format Uyum Skoru = 4 kuralın (TABLO, yıldız, diyez, başlangıç cümlesi) uyum oranlarının ortalaması.</text>
+</svg>

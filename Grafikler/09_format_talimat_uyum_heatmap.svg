@@ -1,0 +1,59 @@
+<svg viewBox="0 0 1000 560" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="1000" height="560" fill="#ffffff"/>
+  <text x="500" y="42" text-anchor="middle" font-size="26" font-weight="600" fill="#1a1a1a">Format / Talimat Uyumu — İhlal Oranı (%)</text>
+  <text x="500" y="70" text-anchor="middle" font-size="15" fill="#666">Her hücre, ilgili modelin 45 raporunda kuralı ihlal etme yüzdesi (koyu = daha kötü)</text>
+
+  <!-- Column headers -->
+  <text x="297" y="118" text-anchor="middle" font-size="14" font-weight="600" fill="#333">[TABLO]</text>
+  <text x="297" y="136" text-anchor="middle" font-size="14" font-weight="600" fill="#333">başarısız</text>
+  <text x="477" y="127" text-anchor="middle" font-size="14" font-weight="600" fill="#333">Yıldız (*)</text>
+  <text x="657" y="127" text-anchor="middle" font-size="14" font-weight="600" fill="#333">Diyez (#)</text>
+  <text x="837" y="118" text-anchor="middle" font-size="14" font-weight="600" fill="#333">Başlangıç</text>
+  <text x="837" y="136" text-anchor="middle" font-size="14" font-weight="600" fill="#333">cümlesi</text>
+
+  <!-- Row: Qwen y=150 -->
+  <text x="195" y="195" text-anchor="end" font-size="15" font-weight="600" fill="#333">Qwen2.5:7b</text>
+  <rect x="212" y="150" width="170" height="80" fill="#b30f17"/>
+  <text x="297" y="196" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">93,3</text>
+  <rect x="392" y="150" width="170" height="80" fill="#fbeceb"/>
+  <text x="477" y="196" text-anchor="middle" font-size="18" font-weight="700" fill="#333">4,4</text>
+  <rect x="572" y="150" width="170" height="80" fill="#ffffff" stroke="#e5e5e5"/>
+  <text x="657" y="196" text-anchor="middle" font-size="18" font-weight="700" fill="#aaa">0</text>
+  <rect x="752" y="150" width="170" height="80" fill="#ffffff" stroke="#e5e5e5"/>
+  <text x="837" y="196" text-anchor="middle" font-size="18" font-weight="700" fill="#aaa">0</text>
+
+  <!-- Row: Gemma y=235 -->
+  <text x="195" y="280" text-anchor="end" font-size="15" font-weight="600" fill="#333">Gemma4:e2b</text>
+  <rect x="212" y="235" width="170" height="80" fill="#ffffff" stroke="#e5e5e5"/>
+  <text x="297" y="281" text-anchor="middle" font-size="18" font-weight="700" fill="#aaa">0</text>
+  <rect x="392" y="235" width="170" height="80" fill="#cc2a22"/>
+  <text x="477" y="281" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">80,0</text>
+  <rect x="572" y="235" width="170" height="80" fill="#f6b6b1"/>
+  <text x="657" y="281" text-anchor="middle" font-size="18" font-weight="700" fill="#333">20,0</text>
+  <rect x="752" y="235" width="170" height="80" fill="#ffffff" stroke="#e5e5e5"/>
+  <text x="837" y="281" text-anchor="middle" font-size="18" font-weight="700" fill="#aaa">0</text>
+
+  <!-- Row: gpt-oss y=320 -->
+  <text x="195" y="365" text-anchor="end" font-size="15" font-weight="600" fill="#333">gpt-oss-120b</text>
+  <rect x="212" y="320" width="170" height="80" fill="#ffffff" stroke="#e5e5e5"/>
+  <text x="297" y="366" text-anchor="middle" font-size="18" font-weight="700" fill="#aaa">0</text>
+  <rect x="392" y="320" width="170" height="80" fill="#e8635a"/>
+  <text x="477" y="366" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">44,4</text>
+  <rect x="572" y="320" width="170" height="80" fill="#ffffff" stroke="#e5e5e5"/>
+  <text x="657" y="366" text-anchor="middle" font-size="18" font-weight="700" fill="#aaa">0</text>
+  <rect x="752" y="320" width="170" height="80" fill="#ffffff" stroke="#e5e5e5"/>
+  <text x="837" y="366" text-anchor="middle" font-size="18" font-weight="700" fill="#aaa">0</text>
+
+  <!-- Row: GLM y=405 -->
+  <text x="195" y="450" text-anchor="end" font-size="15" font-weight="600" fill="#333">GLM-5.1</text>
+  <rect x="212" y="405" width="170" height="80" fill="#ffffff" stroke="#e5e5e5"/>
+  <text x="297" y="451" text-anchor="middle" font-size="18" font-weight="700" fill="#aaa">0</text>
+  <rect x="392" y="405" width="170" height="80" fill="#ffffff" stroke="#e5e5e5"/>
+  <text x="477" y="451" text-anchor="middle" font-size="18" font-weight="700" fill="#aaa">0</text>
+  <rect x="572" y="405" width="170" height="80" fill="#ffffff" stroke="#e5e5e5"/>
+  <text x="657" y="451" text-anchor="middle" font-size="18" font-weight="700" fill="#aaa">0</text>
+  <rect x="752" y="405" width="170" height="80" fill="#ea6e2a"/>
+  <text x="837" y="451" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">40,0</text>
+
+  <text x="500" y="525" text-anchor="middle" font-size="13" fill="#888">Her modelin kendine özgü bir "imza ihlali" vardır; hiçbir model formatı kusursuz uygulamamıştır. (n=45/model)</text>
+</svg>
